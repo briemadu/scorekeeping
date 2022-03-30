@@ -1,0 +1,6 @@
+name: allennlp210
+channels:
+  - defaults
+dependencies:
+  - python=3.6.9
+prefix: /home/users/blasota/anaconda3/envs/allennlp210

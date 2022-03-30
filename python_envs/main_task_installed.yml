@@ -1,0 +1,17 @@
+name: visdial_propositions_mymodel
+channels:
+  - defaults
+dependencies:
+  - h5py
+  - torchvision==0.8.2
+  - pytorch==1.7.1
+  - python=3.6
+  - tqdm
+  - matplotlib
+  - torchaudio==0.7.2
+  - cudatoolkit=10.1
+  - scikit-learn
+  - flake8
+  - pylint
+  - mypy
+prefix: /home/users/blasota/anaconda3/envs/visdial_propositions_mymodel

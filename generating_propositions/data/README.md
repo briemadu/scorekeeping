@@ -1,0 +1,1 @@
+The script get_visdial.sh downloads the dataset to this directory. The outputs of replace_pronouns also go here.

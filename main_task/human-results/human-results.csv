@@ -1,0 +1,301 @@
+username,timestamp,split,dlg_idx,turn_idx,prop_idx,content,content_gold,shared,shared_gold,turn_shared,rule,type,qa_fact,question,answer,prop
+PU6HR2,10:49:43,test,4396,2,6,1,1,1,1,0,caption,direct entailment,none,none,A refrigerator is full of many types of drinks.,There are drinks.
+PU6HR2,10:50:04,test,4933,0,4,1,1,0,0,2,there,direct entailment,positive,Are there any other people?,Yes.,There are other people.
+PU6HR2,10:50:22,test,2899,1,1,0,0,1,1,0,caption,direct contradiction,none,none,Large living space with shiny hardwood floors next to a kitchen.,One cannot see a large space.
+PU6HR2,10:50:47,test,7302,6,19,0,0,1,1,6,there,direct contradiction,negative,Are there people in the photo?,No.,There are people in the photo.
+PU6HR2,10:51:06,test,3094,0,11,0,0,0,0,1,there,direct contradiction,negative,Is there any humans visible?,No.,There is humans visible.
+PU6HR2,10:51:29,test,4448,1,6,0,1,0,0,2,what_color,direct entailment,none,What color are the towels?,White.,The towels are white.
+PU6HR2,10:51:41,test,802,0,7,0,0,1,1,0,caption,direct contradiction,none,none,A man with an elvis haircut cutting another man's hair with pink scissors.,There are no scissors.
+PU6HR2,10:52:18,test,3158,2,13,1,0,0,0,4,noun_,direct contradiction,positive,What does it look like she is eating?,Doughnuts.,There are no doughnuts.
+PU6HR2,10:52:31,test,3052,1,9,0,0,0,0,3,there,direct contradiction,negative,Are there any other animals?,No.,There are other animals.
+PU6HR2,10:52:51,test,798,0,17,0,0,1,0,1,how_many,direct contradiction,none,How many people are there?,5 that i can see.,There are no people.
+PU6HR2,10:53:35,test,7520,0,6,1,1,1,1,0,caption,direct entailment,none,none,"There are goats standing on a field of green grass under a cloudless, blue sky.",There are grass.
+PU6HR2,10:53:56,test,5176,0,4,1,1,0,0,1,what_color,direct entailment,none,What color is the wetsuit?,Dark blue.,The wetsuit is dark blue.
+PU6HR2,10:54:35,test,3454,4,8,1,1,1,1,4,there,direct entailment,negative,Are there many trees?,0.,There are no many trees.
+PU6HR2,10:54:55,test,6921,0,4,1,1,0,0,1,there,direct entailment,positive,Are there any people in the background?,Yes.,There are people in the background.
+PU6HR2,10:55:29,test,4695,1,12,1,1,0,0,3,is_noun_adj,direct entailment,positive,Is the room clean?,"Yes, very clean.",The room is clean.
+PU6HR2,10:55:57,test,7644,8,18,1,1,1,1,7,any_,direct entailment,negative,Any clouds?,No.,There are no clouds.
+PU6HR2,10:56:18,test,3969,0,5,0,0,0,0,2,look_adj,direct contradiction,positive,Do they look happy?,Yes.,The 2 women do not look happy.
+PU6HR2,10:57:23,test,2397,1,2,1,1,1,1,0,caption,direct entailment,none,none,People are on a vacation at a resort.,There is a vacation.
+PU6HR2,10:58:06,test,3066,4,15,0,0,0,0,8,what_color,direct contradiction,none,What color is the mouse?,White.,The mouse is not white.
+PU6HR2,10:58:40,test,3131,2,11,0,0,1,1,2,what_color,direct contradiction,none,What color is his shorts?,Blue plaid.,The man in flip flops's shorts is not blue.
+PU6HR2,10:58:56,test,1477,0,4,1,1,0,0,1,what_color,direct entailment,none,What color is the bus?,"White, blue, and green.","The bus is white, green and blue."
+PU6HR2,10:59:34,test,5282,9,17,0,0,1,1,8,noun_verb,direct contradiction,negative,Are the giraffes eating?,No.,The giraffes are eating.
+PU6HR2,10:59:46,test,4136,0,0,1,1,1,1,0,caption,direct entailment,none,none,A toddler is sitting on a pillow and holding a flip phone.,There is a toddler.
+PU6HR2,11:00:58,test,2456,6,20,1,1,0,0,8,can_you_see,direct entailment,positive,Can you see any windows?,Yes.,One can see windows.
+PU6HR2,11:01:15,test,6447,0,5,0,0,1,0,1,how_many,direct contradiction,none,How many elephants are there?,3.,There are no elephants.
+PU6HR2,11:01:36,test,7820,5,10,1,1,1,1,5,daytime,direct entailment,positive,Is it daytime?,Yes.,It is daytime.
+PU6HR2,11:02:02,test,5944,1,16,1,1,0,0,3,there,direct entailment,negative,"Is there any other animals, besides cows?",No just 4 cows.,"There is no other animals, besides cows."
+PU6HR2,11:02:15,test,7689,0,4,1,1,0,0,1,there,direct entailment,positive,Are there any people in the image?,Yes.,There are people in the image.
+PU6HR2,11:03:05,test,2434,1,10,1,1,1,0,3,there,direct entailment,negative,Is there an accident?,No.,There is no accident.
+PU6HR2,11:03:38,test,7054,7,17,0,0,1,1,6,pron_prep,direct contradiction,negative,Is it in a house?,No it's on a sidewalk.,The photo is in a house.
+PU6HR2,11:03:51,test,4327,2,7,0,0,1,1,1,image_in_color,direct contradiction,positive,Is the photo in color?,Yes it is.,The picture is not in color.
+PU6HR2,11:04:13,test,7052,2,10,1,1,0,0,4,can_you_see,direct entailment,negative,Can you see the sky?,"No,.",One cannot see any sky.
+PU6HR2,11:04:32,test,6720,0,5,0,0,0,0,2,can_you_see,direct contradiction,negative,Can you see the grill?,No.,One can see a grill.
+PU6HR2,11:04:51,test,4005,0,8,0,1,0,0,2,noun_noun,direct entailment,negative,Is the motorcycle vintage?,No.,The motorcycle is not vintage.
+PU6HR2,11:05:56,test,2446,2,12,1,1,0,0,3,look_adj,direct entailment,positive,Does the dishwasher look clean?,"Yes, it looks older, but clean.",The dishwasher looks clean.
+PU6HR2,11:06:19,test,467,2,8,1,1,0,0,4,can_you_see,direct entailment,positive,Do you see any other animals nearby?,"Yes, there is a dog in the photo.",One can see other animals nearby.
+PU6HR2,11:07:12,test,7775,4,13,0,0,1,1,3,there,direct contradiction,positive,Are there a lot of trees?,"Yeah, the side of the hill has quite a few.",There are no a lot of trees.
+PU6HR2,11:07:35,test,7056,0,8,1,1,0,0,1,is_it,direct entailment,positive,Is it a street?,Yes.,There is a street.
+PU6HR2,11:07:59,test,333,0,3,0,0,0,1,0,caption,direct contradiction,none,none,An umbrella opened and sitting on top of a cart.,There is no top.
+PU6HR2,11:08:34,test,6133,4,4,1,1,1,1,0,caption,direct entailment,none,none,A person is on a skateboard right on the concrete.,There is a concrete.
+PU6HR2,11:08:57,test,3610,2,19,0,0,1,1,2,any_,direct contradiction,negative,Any cars?,No.,There are cars.
+PU6HR2,11:09:18,test,290,3,14,1,1,1,1,3,what_color,direct entailment,none,What color is the lawn?,Green.,The lawn is green.
+PU6HR2,11:09:37,test,6665,0,13,0,0,0,0,2,there,direct contradiction,negative,Are there any people?,No.,There are people.
+PU6HR2,11:09:48,test,935,0,10,1,1,1,1,0,caption,direct entailment,none,none,A red sailboat is docked in a harbor with several tall buildings in the background.,There are buildings.
+PU6HR2,11:10:21,test,470,3,9,0,0,1,1,0,caption,direct contradiction,none,none,"A road sign with ""signals ahead"" is on the right side of a street with 1 car on it.",There is no street.
+PU6HR2,11:11:16,test,5493,9,22,1,1,1,1,9,can_you_see,direct entailment,negative,Can you see the floor?,No.,One cannot see any floor.
+PU6HR2,11:11:32,test,111,0,5,0,0,1,1,0,caption,direct contradiction,none,none,2 men playing frisbee in front of a crowd.,There is no crowd.
+PU6HR2,11:11:49,test,985,1,5,0,0,1,1,1,sunny,direct contradiction,negative,Is it a sunny day?,No sun is out.,It is sunny.
+PU6HR2,11:12:11,test,7094,1,12,1,1,0,0,8,any_,direct entailment,negative,Any animals?,No.,There are no animals.
+PU6HR2,11:12:28,test,4790,2,8,1,1,1,1,1,noun_verb,direct entailment,positive,Is the piazza cooked?,Yes yummy!,The piazza is cooked.
+PU6HR2,11:12:49,test,5199,0,5,0,0,1,1,0,caption,direct contradiction,none,none,A brown dog is laying on a couch with several blankets and pillows on it.,There is no couch.
+PU6HR2,11:13:14,test,4718,1,6,1,1,0,0,3,what_color,direct entailment,none,What color is his robe?,Bark with some orange & brown.,The man wearing a bathrobe's robe is brown and orange.
+PU6HR2,11:13:44,test,1514,3,13,0,0,0,0,8,there,direct contradiction,negative,Is there any grass?,No.,There is grass.
+PU6HR2,11:14:18,test,5604,2,13,0,0,0,0,7,noun_prep_noun,direct contradiction,positive,Are the books on shelves?,Yes they are.,The books are not on shelves.
+PU6HR2,11:14:48,test,5164,4,13,0,0,1,1,4,sunny,direct contradiction,positive,Is it sunny outside?,Yes.,It is not sunny.
+PU6HR2,11:15:08,test,2897,4,6,1,1,1,1,1,what_color,direct entailment,none,What color is the plane?,White and red.,The plane is white and red.
+PU6HR2,11:15:32,test,3497,2,7,0,0,1,1,2,what_color,direct contradiction,none,What color is the table?,It is reddish wood.,The table is not wood.
+PU6HR2,11:16:09,test,3755,2,11,0,0,0,0,5,what_color,direct contradiction,none,What color are the trays?,Black.,The trays are not black.
+PU6HR2,11:16:32,test,2249,2,10,1,1,0,0,4,there,direct entailment,positive,Are there any clouds?,Yes lots of clouds.,There are clouds.
+PU6HR2,11:17:09,test,1678,3,10,1,1,0,0,4,there,direct entailment,negative,Is there more than 1 building?,"No, there is just 1 partially visible building.",There is no more than 1 building.
+PU6HR2,11:17:46,test,3092,1,19,0,0,0,0,2,noun_noun,direct contradiction,positive,Is the plate round?,Yes.,The plate is not round.
+PU6HR2,11:18:03,test,5504,1,7,0,0,1,1,1,what_color,direct contradiction,none,What color is the vase?,White.,The vase is not white.
+PU6HR2,11:18:49,test,4799,4,1,0,0,0,1,0,caption,direct contradiction,none,none,A giraffe standing in front of several trees and scattered bones in a desert environment.,There is no front.
+PU6HR2,11:19:25,test,6058,1,7,0,0,0,0,3,any_,direct contradiction,negative,Any kids?,No people.,There are kids.
+PU6HR2,11:20:12,test,344,8,20,1,1,1,1,8,noun_noun,direct entailment,negative,Is the grass overgrown?,No the grass is scant.,The grass is not overgrown.
+PU6HR2,11:20:28,test,1310,1,8,1,1,1,0,2,how_many,direct entailment,none,How many people?,1.,There is a person.
+PU6HR2,11:20:43,test,6298,1,8,1,1,1,1,1,can_you_see,direct entailment,negative,Do you see people?,No.,One cannot see any people.
+PU6HR2,11:21:23,test,1898,5,14,0,1,0,0,6,look_adj,direct entailment,positive,Do they seem amused?,Yes.,The 2 women seem amused.
+PU6HR2,11:21:58,test,7246,4,11,0,0,1,1,2,look_adj,direct contradiction,negative,Does the image look professional?,No.,The image looks professional.
+PU6HR2,11:22:23,test,195,2,15,0,0,0,0,6,there,direct contradiction,negative,Is there any other animals?,"No, just the giraffe.",There is other animals.
+PU6HR2,11:22:49,test,4953,5,11,0,0,1,1,4,is_noun_adj,direct contradiction,positive,Is the rug large?,Yes.,The rug is not large.
+PU6HR2,11:23:19,test,2807,4,12,1,1,0,0,6,there,direct entailment,negative,Are there any trees?,No.,There are no trees.
+PU6HR2,11:23:59,test,3075,4,5,0,0,1,1,3,can_you_see,direct contradiction,negative,Can you see the counter?,No.,One can see a counter.
+PU6HR2,11:24:54,test,5102,2,12,1,1,1,1,1,weather,direct entailment,none,What is the weather like?,Sunny but there are some clouds.,The weather is sunny.
+PU6HR2,11:25:10,test,6149,0,5,0,0,1,1,0,caption,direct contradiction,none,none,A bunch of people running across the street with cars and a building in the background.,There are no cars.
+PU6HR2,11:25:44,test,755,5,6,1,1,0,1,0,caption,direct entailment,none,none,The outside of a black car from the left side of the car.,There is a side.
+PU6HR2,11:26:17,test,7417,3,10,1,1,1,1,3,can_you_see,direct entailment,negative,Can you see what they're looking at?,No but i think it is balloons.,One cannot see any what the 3're looking at.
+PU6HR2,11:26:40,test,7347,2,7,0,0,1,1,2,is_noun_adj,direct contradiction,positive,Is the bird happy?,Yes.,The bird is not happy.
+PU6HR2,11:27:00,test,4022,0,1,0,0,1,1,0,caption,direct contradiction,none,none,"3 elephants are standing next to each other in a grass field,.",There are no elephants.
+PU6HR2,11:27:29,test,639,0,6,1,1,0,0,2,what_color,direct entailment,none,What color is the train?,Mostly green with a yellow stripe.,The train is green and yellow.
+PU6HR2,11:27:58,test,1161,2,3,0,0,1,1,0,caption,direct contradiction,none,none,"A white bowl with pasta, broccoli ,other unidentified veggies and cheese.",There is no pasta.
+PU6HR2,11:28:28,test,7683,0,2,1,1,0,0,4,what_color,direct entailment,none,What color is the wall?,White and green.,The wall is white and green.
+PU6HR2,11:28:53,test,4475,2,12,1,1,0,0,3,there,direct entailment,positive,Are there more than 10 people?,Yes.,There are more than 10 people.
+PU6HR2,11:29:06,test,7530,0,10,1,1,0,0,4,any_,direct entailment,negative,Any doors?,No.,There are no doors.
+PU6HR2,11:29:30,test,5878,2,2,1,1,1,1,0,caption,direct entailment,none,none,A white plane with blue markings sitting at an airport.,One can see blue markings.
+PU6HR2,11:29:55,test,6137,1,15,0,0,1,1,1,what_color,direct contradiction,none,What color is the bowl?,Silver.,The bowl is not silver.
+PU6HR2,11:30:10,test,1571,1,8,1,1,1,1,1,is_noun_adj,direct entailment,negative,Is the man old?,"No, middle aged.",The man is not old.
+PU6HR2,11:30:27,test,61,0,4,1,1,0,0,1,is_np_np,direct entailment,negative,Is the holder a person?,No.,The holder is not a person.
+PU6HR2,11:30:49,test,4483,6,5,0,0,1,1,5,there,direct contradiction,positive,Is there toilet paper?,Yes.,There is no toilet paper.
+PU6HR2,11:31:05,test,847,0,3,0,0,1,1,0,caption,direct contradiction,none,none,3 snowboarders on a hill during the day.,There is no day.
+PU6HR2,11:31:56,test,397,6,6,1,1,1,1,4,noun_verb,direct entailment,positive,Is the ground shown?,Yes.,The ground is shown.
+PU6HR2,11:32:28,test,3865,1,11,0,0,0,0,4,any_,direct contradiction,positive,Any pets visible?,Yes.,There are no pets visible.
+PU6HR2,11:32:52,test,2680,4,0,1,1,1,1,0,caption,direct entailment,none,none,2 zebras and standing next to each other in a grass field.,There is a field.
+PU6HR2,11:33:19,test,14,8,6,1,1,1,1,3,there,direct entailment,negative,Is there water coming off from it?,No.,There is no water coming off from it.
+PU6HR2,11:33:56,test,4848,3,5,0,0,0,0,4,can_you_see,direct contradiction,negative,Can you see fake snow?,No i cannot.,One can see a fake snow.
+PU6HR2,11:34:30,test,3675,7,12,1,1,1,1,6,noun_verb,direct entailment,positive,Are the men smiling?,Yes.,The men are smiling.
+PU6HR2,11:34:48,test,1242,6,5,0,0,1,1,4,noun_,direct contradiction,positive,What is she wearing?,Clothes.,There are no clothes.
+PU6HR2,11:35:07,test,5950,2,11,0,0,1,1,2,what_is,direct contradiction,none,What is the girl wearing?,T shirt and shorts.,The girl is not wearing t shirt and shorts.
+PU6HR2,11:35:31,test,5875,0,8,1,1,0,0,1,adj_or_adj,direct entailment,none,Are the men older or younger?,Younger.,The men are younger.
+PU6HR2,11:35:54,test,3483,7,17,0,0,1,1,5,can_you_see,direct contradiction,negative,Can you see concrete?,No.,One can see a concrete.
+L587OV,16:27:16,test,290,3,14,1,1,1,1,3,what_color,direct entailment,none,What color is the lawn?,Green.,The lawn is green.
+L587OV,16:27:51,test,4483,6,5,0,0,1,1,5,there,direct contradiction,positive,Is there toilet paper?,Yes.,There is no toilet paper.
+L587OV,16:29:26,test,935,0,10,1,1,1,1,0,caption,direct entailment,none,none,A red sailboat is docked in a harbor with several tall buildings in the background.,There are buildings.
+L587OV,16:30:38,test,3675,7,12,1,1,1,1,6,noun_verb,direct entailment,positive,Are the men smiling?,Yes.,The men are smiling.
+L587OV,16:31:15,test,6137,1,15,0,0,1,1,1,what_color,direct contradiction,none,What color is the bowl?,Silver.,The bowl is not silver.
+L587OV,16:31:51,test,7820,5,10,1,1,1,1,5,daytime,direct entailment,positive,Is it daytime?,Yes.,It is daytime.
+L587OV,16:32:44,test,7094,1,12,1,1,0,0,8,any_,direct entailment,negative,Any animals?,No.,There are no animals.
+L587OV,16:33:04,test,4327,2,7,1,0,1,1,1,image_in_color,direct contradiction,positive,Is the photo in color?,Yes it is.,The picture is not in color.
+L587OV,16:33:59,test,3092,1,19,1,0,0,0,2,noun_noun,direct contradiction,positive,Is the plate round?,Yes.,The plate is not round.
+L587OV,16:34:17,test,7347,2,7,0,0,1,1,2,is_noun_adj,direct contradiction,positive,Is the bird happy?,Yes.,The bird is not happy.
+L587OV,16:36:09,test,2249,2,10,1,1,0,0,4,there,direct entailment,positive,Are there any clouds?,Yes lots of clouds.,There are clouds.
+L587OV,16:36:23,test,847,0,3,1,0,1,1,0,caption,direct contradiction,none,none,3 snowboarders on a hill during the day.,There is no day.
+L587OV,16:36:37,test,5504,1,7,0,0,1,1,1,what_color,direct contradiction,none,What color is the vase?,White.,The vase is not white.
+L587OV,16:37:30,test,1898,5,14,0,1,0,0,6,look_adj,direct entailment,positive,Do they seem amused?,Yes.,The 2 women seem amused.
+L587OV,16:38:12,test,3131,2,11,0,0,1,1,2,what_color,direct contradiction,none,What color is his shorts?,Blue plaid.,The man in flip flops's shorts is not blue.
+L587OV,16:38:39,test,1514,3,13,0,0,0,0,8,there,direct contradiction,negative,Is there any grass?,No.,There is grass.
+L587OV,16:39:49,test,755,5,6,1,1,1,1,0,caption,direct entailment,none,none,The outside of a black car from the left side of the car.,There is a side.
+L587OV,16:40:41,test,3066,4,15,0,0,0,0,8,what_color,direct contradiction,none,What color is the mouse?,White.,The mouse is not white.
+L587OV,16:41:03,test,5878,2,2,1,1,1,1,0,caption,direct entailment,none,none,A white plane with blue markings sitting at an airport.,One can see blue markings.
+L587OV,16:41:15,test,7689,0,4,1,1,0,0,1,there,direct entailment,positive,Are there any people in the image?,Yes.,There are people in the image.
+L587OV,16:41:52,test,3755,2,11,0,0,0,0,5,what_color,direct contradiction,none,What color are the trays?,Black.,The trays are not black.
+L587OV,16:42:13,test,2899,1,1,0,0,1,1,0,caption,direct contradiction,none,none,Large living space with shiny hardwood floors next to a kitchen.,One cannot see a large space.
+L587OV,16:43:02,test,2456,6,20,1,1,0,0,8,can_you_see,direct entailment,positive,Can you see any windows?,Yes.,One can see windows.
+L587OV,16:43:16,test,4022,0,1,0,0,1,1,0,caption,direct contradiction,none,none,"3 elephants are standing next to each other in a grass field,.",There are no elephants.
+L587OV,16:44:46,test,2897,4,6,1,1,1,1,1,what_color,direct entailment,none,What color is the plane?,White and red.,The plane is white and red.
+L587OV,16:45:17,test,61,0,4,1,1,0,0,1,is_np_np,direct entailment,negative,Is the holder a person?,No.,The holder is not a person.
+L587OV,16:46:06,test,1242,6,5,0,0,1,1,4,noun_,direct contradiction,positive,What is she wearing?,Clothes.,There are no clothes.
+L587OV,16:46:33,test,7683,0,2,1,1,0,0,4,what_color,direct entailment,none,What color is the wall?,White and green.,The wall is white and green.
+L587OV,16:47:29,test,7054,7,17,0,0,1,1,6,pron_prep,direct contradiction,negative,Is it in a house?,No it's on a sidewalk.,The photo is in a house.
+L587OV,16:48:59,test,7775,4,13,0,0,1,1,3,there,direct contradiction,positive,Are there a lot of trees?,"Yeah, the side of the hill has quite a few.",There are no a lot of trees.
+L587OV,16:49:37,test,7520,0,6,1,1,1,1,0,caption,direct entailment,none,none,"There are goats standing on a field of green grass under a cloudless, blue sky.",There are grass.
+L587OV,16:50:23,test,5944,1,16,1,1,0,0,3,there,direct entailment,negative,"Is there any other animals, besides cows?",No just 4 cows.,"There is no other animals, besides cows."
+L587OV,16:50:49,test,2397,1,2,1,1,1,1,0,caption,direct entailment,none,none,People are on a vacation at a resort.,There is a vacation.
+L587OV,16:51:03,test,6447,0,5,0,0,1,0,1,how_many,direct contradiction,none,How many elephants are there?,3.,There are no elephants.
+L587OV,16:51:40,test,7246,4,11,0,0,1,1,2,look_adj,direct contradiction,negative,Does the image look professional?,No.,The image looks professional.
+L587OV,16:52:20,test,5164,4,13,0,0,1,1,4,sunny,direct contradiction,positive,Is it sunny outside?,Yes.,It is not sunny.
+L587OV,16:52:44,test,2434,1,10,1,1,1,0,3,there,direct entailment,negative,Is there an accident?,No.,There is no accident.
+L587OV,16:53:57,test,7417,3,10,1,1,0,1,3,can_you_see,direct entailment,negative,Can you see what they're looking at?,No but i think it is balloons.,One cannot see any what the 3're looking at.
+L587OV,16:54:23,test,4396,2,6,1,1,1,1,0,caption,direct entailment,none,none,A refrigerator is full of many types of drinks.,There are drinks.
+L587OV,16:54:54,test,639,0,6,1,1,0,0,2,what_color,direct entailment,none,What color is the train?,Mostly green with a yellow stripe.,The train is green and yellow.
+L587OV,16:55:32,test,1161,2,3,0,0,1,1,0,caption,direct contradiction,none,none,"A white bowl with pasta, broccoli ,other unidentified veggies and cheese.",There is no pasta.
+L587OV,16:55:59,test,470,3,9,1,0,1,1,0,caption,direct contradiction,none,none,"A road sign with ""signals ahead"" is on the right side of a street with 1 car on it.",There is no street.
+L587OV,16:58:33,test,4953,5,11,0,0,1,1,4,is_noun_adj,direct contradiction,positive,Is the rug large?,Yes.,The rug is not large.
+L587OV,16:58:45,test,111,0,5,0,0,1,1,0,caption,direct contradiction,none,none,2 men playing frisbee in front of a crowd.,There is no crowd.
+L587OV,16:59:15,test,5950,2,11,0,0,1,1,2,what_is,direct contradiction,none,What is the girl wearing?,T shirt and shorts.,The girl is not wearing t shirt and shorts.
+L587OV,16:59:44,test,5102,2,12,1,1,1,1,1,weather,direct entailment,none,What is the weather like?,Sunny but there are some clouds.,The weather is sunny.
+L587OV,17:00:09,test,7056,0,8,1,1,0,0,1,is_it,direct entailment,positive,Is it a street?,Yes.,There is a street.
+L587OV,17:12:44,test,2446,2,12,1,1,0,0,3,look_adj,direct entailment,positive,Does the dishwasher look clean?,"Yes, it looks older, but clean.",The dishwasher looks clean.
+L587OV,17:13:00,test,6058,1,7,0,0,0,0,3,any_,direct contradiction,negative,Any kids?,No people.,There are kids.
+L587OV,17:13:22,test,6665,0,13,0,0,0,0,2,there,direct contradiction,negative,Are there any people?,No.,There are people.
+L587OV,17:13:54,test,4718,1,6,1,1,0,0,3,what_color,direct entailment,none,What color is his robe?,Bark with some orange & brown.,The man wearing a bathrobe's robe is brown and orange.
+L587OV,17:14:36,test,4799,4,1,0,0,1,1,0,caption,direct contradiction,none,none,A giraffe standing in front of several trees and scattered bones in a desert environment.,There is no front.
+L587OV,17:14:59,test,2680,4,0,1,1,1,1,0,caption,direct entailment,none,none,2 zebras and standing next to each other in a grass field.,There is a field.
+L587OV,17:15:35,test,344,8,20,1,1,1,1,8,noun_noun,direct entailment,negative,Is the grass overgrown?,No the grass is scant.,The grass is not overgrown.
+L587OV,17:16:14,test,3610,2,19,0,0,1,1,2,any_,direct contradiction,negative,Any cars?,No.,There are cars.
+L587OV,17:16:36,test,1310,1,8,1,1,1,0,2,how_many,direct entailment,none,How many people?,1.,There is a person.
+L587OV,17:17:27,test,3454,4,8,1,1,1,1,4,there,direct entailment,negative,Are there many trees?,0.,There are no many trees.
+L587OV,17:17:52,test,397,6,6,1,1,1,1,4,noun_verb,direct entailment,positive,Is the ground shown?,Yes.,The ground is shown.
+L587OV,17:18:06,test,333,0,3,0,0,1,1,0,caption,direct contradiction,none,none,An umbrella opened and sitting on top of a cart.,There is no top.
+L587OV,17:18:22,test,7530,0,10,0,1,0,0,4,any_,direct entailment,negative,Any doors?,No.,There are no doors.
+L587OV,17:19:03,test,4848,3,5,0,0,0,0,4,can_you_see,direct contradiction,negative,Can you see fake snow?,No i cannot.,One can see a fake snow.
+L587OV,17:19:30,test,7052,2,10,1,1,0,0,4,can_you_see,direct entailment,negative,Can you see the sky?,"No,.",One cannot see any sky.
+L587OV,17:19:54,test,4136,0,0,1,1,1,1,0,caption,direct entailment,none,none,A toddler is sitting on a pillow and holding a flip phone.,There is a toddler.
+L587OV,17:20:15,test,6298,1,8,1,1,1,1,1,can_you_see,direct entailment,negative,Do you see people?,No.,One cannot see any people.
+L587OV,17:20:39,test,5176,0,4,1,1,0,0,1,what_color,direct entailment,none,What color is the wetsuit?,Dark blue.,The wetsuit is dark blue.
+L587OV,17:20:50,test,3094,0,11,0,0,0,0,1,there,direct contradiction,negative,Is there any humans visible?,No.,There is humans visible.
+L587OV,17:21:20,test,3865,1,11,0,0,0,0,4,any_,direct contradiction,positive,Any pets visible?,Yes.,There are no pets visible.
+L587OV,17:21:54,test,195,2,15,0,0,0,0,6,there,direct contradiction,negative,Is there any other animals?,"No, just the giraffe.",There is other animals.
+L587OV,17:23:46,test,3497,2,7,0,0,1,1,2,what_color,direct contradiction,none,What color is the table?,It is reddish wood.,The table is not wood.
+L587OV,17:24:07,test,4475,2,12,1,1,0,0,3,there,direct entailment,positive,Are there more than 10 people?,Yes.,There are more than 10 people.
+L587OV,17:24:35,test,4448,1,6,1,1,0,0,2,what_color,direct entailment,none,What color are the towels?,White.,The towels are white.
+L587OV,17:26:17,test,5493,9,22,1,1,1,1,9,can_you_see,direct entailment,negative,Can you see the floor?,No.,One cannot see any floor.
+L587OV,17:27:11,test,4695,1,12,1,1,0,0,3,is_noun_adj,direct entailment,positive,Is the room clean?,"Yes, very clean.",The room is clean.
+L587OV,17:27:21,test,798,0,17,0,0,1,0,1,how_many,direct contradiction,none,How many people are there?,5 that i can see.,There are no people.
+L587OV,17:27:42,test,1571,1,8,1,1,1,1,1,is_noun_adj,direct entailment,negative,Is the man old?,"No, middle aged.",The man is not old.
+L587OV,17:28:05,test,802,0,7,0,0,1,1,0,caption,direct contradiction,none,none,A man with an elvis haircut cutting another man's hair with pink scissors.,There are no scissors.
+L587OV,17:28:21,test,7302,6,19,0,0,1,1,6,there,direct contradiction,negative,Are there people in the photo?,No.,There are people in the photo.
+L587OV,17:28:51,test,4005,0,8,1,1,0,0,2,noun_noun,direct entailment,negative,Is the motorcycle vintage?,No.,The motorcycle is not vintage.
+L587OV,17:29:00,test,6149,0,5,0,0,1,1,0,caption,direct contradiction,none,none,A bunch of people running across the street with cars and a building in the background.,There are no cars.
+L587OV,17:29:18,test,3483,7,17,0,0,1,1,5,can_you_see,direct contradiction,negative,Can you see concrete?,No.,One can see a concrete.
+L587OV,17:29:39,test,3052,1,9,0,0,0,0,3,there,direct contradiction,negative,Are there any other animals?,No.,There are other animals.
+L587OV,17:29:51,test,5199,0,5,0,0,1,1,0,caption,direct contradiction,none,none,A brown dog is laying on a couch with several blankets and pillows on it.,There is no couch.
+L587OV,17:30:34,test,985,1,5,0,0,1,1,1,sunny,direct contradiction,negative,Is it a sunny day?,No sun is out.,It is sunny.
+L587OV,17:30:58,test,3969,0,5,0,0,0,0,2,look_adj,direct contradiction,positive,Do they look happy?,Yes.,The 2 women do not look happy.
+L587OV,17:31:14,test,6720,0,5,0,0,0,0,2,can_you_see,direct contradiction,negative,Can you see the grill?,No.,One can see a grill.
+L587OV,17:31:39,test,1477,0,4,1,1,0,0,1,what_color,direct entailment,none,What color is the bus?,"White, blue, and green.","The bus is white, green and blue."
+L587OV,17:32:18,test,4790,2,8,1,1,1,1,1,noun_verb,direct entailment,positive,Is the piazza cooked?,Yes yummy!,The piazza is cooked.
+L587OV,17:33:42,test,1678,3,10,1,1,0,0,4,there,direct entailment,negative,Is there more than 1 building?,"No, there is just 1 partially visible building.",There is no more than 1 building.
+L587OV,17:34:04,test,5604,2,13,0,0,0,0,7,noun_prep_noun,direct contradiction,positive,Are the books on shelves?,Yes they are.,The books are not on shelves.
+L587OV,17:34:22,test,6921,0,4,1,1,0,0,1,there,direct entailment,positive,Are there any people in the background?,Yes.,There are people in the background.
+L587OV,17:34:50,test,5282,9,17,0,0,1,1,8,noun_verb,direct contradiction,negative,Are the giraffes eating?,No.,The giraffes are eating.
+L587OV,17:35:00,test,6133,4,4,1,1,1,1,0,caption,direct entailment,none,none,A person is on a skateboard right on the concrete.,There is a concrete.
+L587OV,17:35:37,test,14,8,6,1,1,1,1,3,there,direct entailment,negative,Is there water coming off from it?,No.,There is no water coming off from it.
+L587OV,17:36:28,test,3075,4,5,0,0,1,1,3,can_you_see,direct contradiction,negative,Can you see the counter?,No.,One can see a counter.
+L587OV,17:37:29,test,5875,0,8,1,1,0,0,1,adj_or_adj,direct entailment,none,Are the men older or younger?,Younger.,The men are younger.
+L587OV,17:37:45,test,7644,8,18,1,1,1,1,7,any_,direct entailment,negative,Any clouds?,No.,There are no clouds.
+L587OV,17:38:03,test,2807,4,12,1,1,0,0,6,there,direct entailment,negative,Are there any trees?,No.,There are no trees.
+L587OV,17:38:13,test,4933,0,4,1,1,0,0,2,there,direct entailment,positive,Are there any other people?,Yes.,There are other people.
+L587OV,17:38:51,test,3158,2,13,0,0,0,0,4,noun_,direct contradiction,positive,What does it look like she is eating?,Doughnuts.,There are no doughnuts.
+L587OV,17:39:19,test,467,2,8,1,1,0,0,4,can_you_see,direct entailment,positive,Do you see any other animals nearby?,"Yes, there is a dog in the photo.",One can see other animals nearby.
+EZTJJK,09:52:39,test,14,8,6,1,1,1,1,3,there,direct entailment,negative,Is there water coming off from it?,No.,There is no water coming off from it.
+EZTJJK,09:52:53,test,1310,1,8,1,1,1,0,2,how_many,direct entailment,none,How many people?,1.,There is a person.
+EZTJJK,09:53:15,test,5102,2,12,1,1,1,1,1,weather,direct entailment,none,What is the weather like?,Sunny but there are some clouds.,The weather is sunny.
+EZTJJK,09:53:41,test,4475,2,12,1,1,0,0,3,there,direct entailment,positive,Are there more than 10 people?,Yes.,There are more than 10 people.
+EZTJJK,09:54:11,test,7302,6,19,0,0,1,1,6,there,direct contradiction,negative,Are there people in the photo?,No.,There are people in the photo.
+EZTJJK,09:54:36,test,467,2,8,1,1,0,0,4,can_you_see,direct entailment,positive,Do you see any other animals nearby?,"Yes, there is a dog in the photo.",One can see other animals nearby.
+EZTJJK,09:54:59,test,61,0,4,1,1,0,0,1,is_np_np,direct entailment,negative,Is the holder a person?,No.,The holder is not a person.
+EZTJJK,09:55:09,test,5875,0,8,1,1,0,0,1,adj_or_adj,direct entailment,none,Are the men older or younger?,Younger.,The men are younger.
+EZTJJK,09:55:23,test,4022,0,1,0,0,1,1,0,caption,direct contradiction,none,none,"3 elephants are standing next to each other in a grass field,.",There are no elephants.
+EZTJJK,09:55:52,test,2680,4,0,1,1,1,1,0,caption,direct entailment,none,none,2 zebras and standing next to each other in a grass field.,There is a field.
+EZTJJK,09:56:07,test,3610,2,19,0,0,1,1,2,any_,direct contradiction,negative,Any cars?,No.,There are cars.
+EZTJJK,09:56:18,test,802,0,7,0,0,1,1,0,caption,direct contradiction,none,none,A man with an elvis haircut cutting another man's hair with pink scissors.,There are no scissors.
+EZTJJK,09:56:55,test,1678,3,10,1,1,0,0,4,there,direct entailment,negative,Is there more than 1 building?,"No, there is just 1 partially visible building.",There is no more than 1 building.
+EZTJJK,09:57:20,test,3454,4,8,1,1,1,1,4,there,direct entailment,negative,Are there many trees?,0.,There are no many trees.
+EZTJJK,09:57:41,test,7644,8,18,1,1,1,1,7,any_,direct entailment,negative,Any clouds?,No.,There are no clouds.
+EZTJJK,09:57:53,test,4790,2,8,1,1,1,1,1,noun_verb,direct entailment,positive,Is the piazza cooked?,Yes yummy!,The piazza is cooked.
+EZTJJK,09:58:13,test,5164,4,13,0,0,1,1,4,sunny,direct contradiction,positive,Is it sunny outside?,Yes.,It is not sunny.
+EZTJJK,09:58:28,test,5199,0,5,0,0,1,1,0,caption,direct contradiction,none,none,A brown dog is laying on a couch with several blankets and pillows on it.,There is no couch.
+EZTJJK,09:59:05,test,2446,2,12,1,1,0,0,3,look_adj,direct entailment,positive,Does the dishwasher look clean?,"Yes, it looks older, but clean.",The dishwasher looks clean.
+EZTJJK,09:59:16,test,6720,0,5,0,0,0,0,2,can_you_see,direct contradiction,negative,Can you see the grill?,No.,One can see a grill.
+EZTJJK,09:59:33,test,847,0,3,0,0,1,1,0,caption,direct contradiction,none,none,3 snowboarders on a hill during the day.,There is no day.
+EZTJJK,09:59:46,test,5878,2,2,1,1,1,1,0,caption,direct entailment,none,none,A white plane with blue markings sitting at an airport.,One can see blue markings.
+EZTJJK,09:59:58,test,3969,0,5,0,0,0,0,2,look_adj,direct contradiction,positive,Do they look happy?,Yes.,The 2 women do not look happy.
+EZTJJK,10:00:10,test,7820,5,10,1,1,1,1,5,daytime,direct entailment,positive,Is it daytime?,Yes.,It is daytime.
+EZTJJK,10:00:20,test,4136,0,0,1,1,1,1,0,caption,direct entailment,none,none,A toddler is sitting on a pillow and holding a flip phone.,There is a toddler.
+EZTJJK,10:00:37,test,5282,9,17,0,0,1,1,8,noun_verb,direct contradiction,negative,Are the giraffes eating?,No.,The giraffes are eating.
+EZTJJK,10:00:55,test,3755,2,11,0,0,0,0,5,what_color,direct contradiction,none,What color are the trays?,Black.,The trays are not black.
+EZTJJK,10:01:09,test,1514,3,13,0,0,0,0,8,there,direct contradiction,negative,Is there any grass?,No.,There is grass.
+EZTJJK,10:01:37,test,4799,4,1,0,0,1,1,0,caption,direct contradiction,none,none,A giraffe standing in front of several trees and scattered bones in a desert environment.,There is no front.
+EZTJJK,10:02:11,test,7417,3,10,1,1,1,1,3,can_you_see,direct entailment,negative,Can you see what they're looking at?,No but i think it is balloons.,One cannot see any what the 3're looking at.
+EZTJJK,10:02:21,test,6149,0,5,0,0,1,1,0,caption,direct contradiction,none,none,A bunch of people running across the street with cars and a building in the background.,There are no cars.
+EZTJJK,10:02:30,test,639,0,6,1,1,0,0,2,what_color,direct entailment,none,What color is the train?,Mostly green with a yellow stripe.,The train is green and yellow.
+EZTJJK,10:02:44,test,6921,0,4,1,1,0,0,1,there,direct entailment,positive,Are there any people in the background?,Yes.,There are people in the background.
+EZTJJK,10:03:09,test,7054,7,17,0,0,1,1,6,pron_prep,direct contradiction,negative,Is it in a house?,No it's on a sidewalk.,The photo is in a house.
+EZTJJK,10:03:27,test,7056,0,8,1,1,0,0,1,is_it,direct entailment,positive,Is it a street?,Yes.,There is a street.
+EZTJJK,10:03:41,test,5950,2,11,0,0,1,1,2,what_is,direct contradiction,none,What is the girl wearing?,T shirt and shorts.,The girl is not wearing t shirt and shorts.
+EZTJJK,10:04:06,test,4695,1,12,1,1,0,0,3,is_noun_adj,direct entailment,positive,Is the room clean?,"Yes, very clean.",The room is clean.
+EZTJJK,10:04:18,test,7683,0,2,1,1,0,0,4,what_color,direct entailment,none,What color is the wall?,White and green.,The wall is white and green.
+EZTJJK,10:04:28,test,3094,0,11,0,0,0,0,1,there,direct contradiction,negative,Is there any humans visible?,No.,There is humans visible.
+EZTJJK,10:04:43,test,195,2,15,0,0,0,0,6,there,direct contradiction,negative,Is there any other animals?,"No, just the giraffe.",There is other animals.
+EZTJJK,10:05:02,test,2456,6,20,1,1,0,0,8,can_you_see,direct entailment,positive,Can you see any windows?,Yes.,One can see windows.
+EZTJJK,10:05:16,test,5176,0,4,1,1,0,0,1,what_color,direct entailment,none,What color is the wetsuit?,Dark blue.,The wetsuit is dark blue.
+EZTJJK,10:05:30,test,4005,0,8,0,1,0,0,2,noun_noun,direct entailment,negative,Is the motorcycle vintage?,No.,The motorcycle is not vintage.
+EZTJJK,10:05:44,test,3131,2,11,0,0,1,1,2,what_color,direct contradiction,none,What color is his shorts?,Blue plaid.,The man in flip flops's shorts is not blue.
+EZTJJK,10:06:01,test,1242,6,5,0,0,1,1,4,noun_,direct contradiction,positive,What is she wearing?,Clothes.,There are no clothes.
+EZTJJK,10:06:14,test,4483,6,5,0,0,1,1,5,there,direct contradiction,positive,Is there toilet paper?,Yes.,There is no toilet paper.
+EZTJJK,10:06:42,test,4448,1,6,0,1,0,0,2,what_color,direct entailment,none,What color are the towels?,White.,The towels are white.
+EZTJJK,10:06:52,test,798,0,17,0,0,1,0,1,how_many,direct contradiction,none,How many people are there?,5 that i can see.,There are no people.
+EZTJJK,10:07:14,test,4953,5,11,1,0,1,1,4,is_noun_adj,direct contradiction,positive,Is the rug large?,Yes.,The rug is not large.
+EZTJJK,10:07:24,test,397,6,6,1,1,1,1,4,noun_verb,direct entailment,positive,Is the ground shown?,Yes.,The ground is shown.
+EZTJJK,10:07:50,test,1898,5,14,0,1,0,0,6,look_adj,direct entailment,positive,Do they seem amused?,Yes.,The 2 women seem amused.
+EZTJJK,10:08:08,test,3675,7,12,1,1,1,1,6,noun_verb,direct entailment,positive,Are the men smiling?,Yes.,The men are smiling.
+EZTJJK,10:08:24,test,2249,2,10,0,1,0,0,4,there,direct entailment,positive,Are there any clouds?,Yes lots of clouds.,There are clouds.
+EZTJJK,10:08:35,test,4327,2,7,0,0,1,1,1,image_in_color,direct contradiction,positive,Is the photo in color?,Yes it is.,The picture is not in color.
+EZTJJK,10:09:40,test,935,0,10,1,1,1,1,0,caption,direct entailment,none,none,A red sailboat is docked in a harbor with several tall buildings in the background.,There are buildings.
+EZTJJK,10:09:53,test,1161,2,3,0,0,1,1,0,caption,direct contradiction,none,none,"A white bowl with pasta, broccoli ,other unidentified veggies and cheese.",There is no pasta.
+EZTJJK,10:10:10,test,3075,4,5,0,0,1,1,3,can_you_see,direct contradiction,negative,Can you see the counter?,No.,One can see a counter.
+EZTJJK,10:10:31,test,5604,2,13,0,0,0,0,7,noun_prep_noun,direct contradiction,positive,Are the books on shelves?,Yes they are.,The books are not on shelves.
+EZTJJK,10:10:40,test,4933,0,4,1,1,0,0,2,there,direct entailment,positive,Are there any other people?,Yes.,There are other people.
+EZTJJK,10:11:31,test,4848,3,5,0,0,0,0,4,can_you_see,direct contradiction,negative,Can you see fake snow?,No i cannot.,One can see a fake snow.
+EZTJJK,10:11:42,test,7094,1,12,1,1,0,0,8,any_,direct entailment,negative,Any animals?,No.,There are no animals.
+EZTJJK,10:12:01,test,5493,9,22,1,1,1,1,9,can_you_see,direct entailment,negative,Can you see the floor?,No.,One cannot see any floor.
+EZTJJK,10:12:23,test,333,0,3,0,0,0,1,0,caption,direct contradiction,none,none,An umbrella opened and sitting on top of a cart.,There is no top.
+EZTJJK,10:12:56,test,3865,1,11,0,0,0,0,4,any_,direct contradiction,positive,Any pets visible?,Yes.,There are no pets visible.
+EZTJJK,10:13:20,test,2807,4,12,1,1,0,0,6,there,direct entailment,negative,Are there any trees?,No.,There are no trees.
+EZTJJK,10:13:40,test,3483,7,17,0,0,1,1,5,can_you_see,direct contradiction,negative,Can you see concrete?,No.,One can see a concrete.
+EZTJJK,10:13:56,test,7775,4,13,0,0,1,1,3,there,direct contradiction,positive,Are there a lot of trees?,"Yeah, the side of the hill has quite a few.",There are no a lot of trees.
+EZTJJK,10:14:09,test,4396,2,6,1,1,1,1,0,caption,direct entailment,none,none,A refrigerator is full of many types of drinks.,There are drinks.
+EZTJJK,10:14:20,test,4718,1,6,1,1,0,0,3,what_color,direct entailment,none,What color is his robe?,Bark with some orange & brown.,The man wearing a bathrobe's robe is brown and orange.
+EZTJJK,10:14:45,test,7052,2,10,1,1,0,0,4,can_you_see,direct entailment,negative,Can you see the sky?,"No,.",One cannot see any sky.
+EZTJJK,10:14:57,test,6298,1,8,1,1,1,1,1,can_you_see,direct entailment,negative,Do you see people?,No.,One cannot see any people.
+EZTJJK,10:15:48,test,3066,4,15,0,0,0,0,8,what_color,direct contradiction,none,What color is the mouse?,White.,The mouse is not white.
+EZTJJK,10:15:57,test,7689,0,4,1,1,0,0,1,there,direct entailment,positive,Are there any people in the image?,Yes.,There are people in the image.
+EZTJJK,10:16:05,test,7530,0,10,1,1,0,0,4,any_,direct entailment,negative,Any doors?,No.,There are no doors.
+EZTJJK,10:16:17,test,2899,1,1,0,0,1,1,0,caption,direct contradiction,none,none,Large living space with shiny hardwood floors next to a kitchen.,One cannot see a large space.
+EZTJJK,10:16:33,test,3092,1,19,0,0,0,0,2,noun_noun,direct contradiction,positive,Is the plate round?,Yes.,The plate is not round.
+EZTJJK,10:16:44,test,2397,1,2,1,1,1,1,0,caption,direct entailment,none,none,People are on a vacation at a resort.,There is a vacation.
+EZTJJK,10:16:56,test,985,1,5,0,0,1,1,1,sunny,direct contradiction,negative,Is it a sunny day?,No sun is out.,It is sunny.
+EZTJJK,10:17:24,test,3158,2,13,0,0,1,0,4,noun_,direct contradiction,positive,What does it look like she is eating?,Doughnuts.,There are no doughnuts.
+EZTJJK,10:17:35,test,6137,1,15,0,0,1,1,1,what_color,direct contradiction,none,What color is the bowl?,Silver.,The bowl is not silver.
+EZTJJK,10:17:46,test,7520,0,6,1,1,1,1,0,caption,direct entailment,none,none,"There are goats standing on a field of green grass under a cloudless, blue sky.",There are grass.
+EZTJJK,10:17:55,test,5504,1,7,0,0,1,1,1,what_color,direct contradiction,none,What color is the vase?,White.,The vase is not white.
+EZTJJK,10:18:08,test,470,3,9,0,0,1,1,0,caption,direct contradiction,none,none,"A road sign with ""signals ahead"" is on the right side of a street with 1 car on it.",There is no street.
+EZTJJK,10:18:20,test,7246,4,11,0,0,1,1,2,look_adj,direct contradiction,negative,Does the image look professional?,No.,The image looks professional.
+EZTJJK,10:18:40,test,2434,1,10,0,1,0,0,3,there,direct entailment,negative,Is there an accident?,No.,There is no accident.
+EZTJJK,10:18:51,test,2897,4,6,1,1,1,1,1,what_color,direct entailment,none,What color is the plane?,White and red.,The plane is white and red.
+EZTJJK,10:19:16,test,344,8,20,1,1,1,1,8,noun_noun,direct entailment,negative,Is the grass overgrown?,No the grass is scant.,The grass is not overgrown.
+EZTJJK,10:19:23,test,3052,1,9,0,0,0,0,3,there,direct contradiction,negative,Are there any other animals?,No.,There are other animals.
+EZTJJK,10:19:33,test,6058,1,7,0,0,0,0,3,any_,direct contradiction,negative,Any kids?,No people.,There are kids.
+EZTJJK,10:19:47,test,6665,0,13,0,0,0,0,2,there,direct contradiction,negative,Are there any people?,No.,There are people.
+EZTJJK,10:20:01,test,5944,1,16,1,1,0,0,3,there,direct entailment,negative,"Is there any other animals, besides cows?",No just 4 cows.,"There is no other animals, besides cows."
+EZTJJK,10:20:16,test,6133,4,4,1,1,1,1,0,caption,direct entailment,none,none,A person is on a skateboard right on the concrete.,There is a concrete.
+EZTJJK,10:20:24,test,1477,0,4,1,1,0,0,1,what_color,direct entailment,none,What color is the bus?,"White, blue, and green.","The bus is white, green and blue."
+EZTJJK,10:20:32,test,111,0,5,0,0,1,1,0,caption,direct contradiction,none,none,2 men playing frisbee in front of a crowd.,There is no crowd.
+EZTJJK,10:20:45,test,3497,2,7,0,0,1,1,2,what_color,direct contradiction,none,What color is the table?,It is reddish wood.,The table is not wood.
+EZTJJK,10:20:56,test,7347,2,7,0,0,1,1,2,is_noun_adj,direct contradiction,positive,Is the bird happy?,Yes.,The bird is not happy.
+EZTJJK,10:21:08,test,1571,1,8,1,1,1,1,1,is_noun_adj,direct entailment,negative,Is the man old?,"No, middle aged.",The man is not old.
+EZTJJK,10:21:15,test,6447,0,5,0,0,1,0,1,how_many,direct contradiction,none,How many elephants are there?,3.,There are no elephants.
+EZTJJK,10:21:28,test,755,5,6,1,1,1,1,0,caption,direct entailment,none,none,The outside of a black car from the left side of the car.,There is a side.
+EZTJJK,10:21:39,test,290,3,14,1,1,1,1,3,what_color,direct entailment,none,What color is the lawn?,Green.,The lawn is green.
