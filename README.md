@@ -53,7 +53,24 @@ dialogue representations.
 
 ## Citation
 
-If you use this work, please cite: (tbd)
+If you use this work, please cite: 
+
+```
+@inproceedings{madureira-schlangen-2022-visual,
+    title = "Can Visual Dialogue Models Do Scorekeeping? Exploring How Dialogue Representations Incrementally Encode Shared Knowledge",
+    author = "Madureira, Brielen  and
+      Schlangen, David",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-short.73",
+    doi = "10.18653/v1/2022.acl-short.73",
+    pages = "651--664",
+}
+
+```
 
 ## License
 
