@@ -52,7 +52,7 @@ repository to build the environment.
 3. Follow the instructions on ```main_task```.
 
 
-**Warning**: This version of the code was used for the revised version submitted on
+This version of the code was used for the final version submitted on
 March 30, after fixing a problem with the extraction of the 
 dialogue representations. 
 
