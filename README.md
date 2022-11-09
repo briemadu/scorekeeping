@@ -6,6 +6,11 @@ Madureira & Schlangen (2022). Can Visual Dialogue Models do Scorekeeping?
 Exploring how Dialogue Representations Incrementally Encode Shared Knowledge. 
 Short paper presented at ACL 2022 in Dublin, Ireland.
 
+## Erratum ##
+
+The axis labels are swapped in Table 3 (and the corresponding figures in the Jupyter notebook).
+
+
 ## What is this repository for?
 
 The paper proposes an evaluation method to assess how visual dialogue models 
